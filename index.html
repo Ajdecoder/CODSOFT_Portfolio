@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="icon" href="Pics/title.jpg" type="image/icon type">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://img.icons8.com/nolan/64/portfolio.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd7a52d589.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name-watermark"><span>An</span>uj <span>Ku</span>mar <span>Shri</span>vastav</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="col">
+                <div class="header-text">
+                    <p id="element"></p>
+                    <h1>Hi, I'm <span>Anuj</span><br> Kumar <span>Shrivastav</span> From India</h1>
+                </div>
+                <div class="body">
+                    <div class="box">
+                        <div class="circle">
+                            <img src="Pics/background.jpg">
+                            <h2>Anuj Kumar Shrivastav<br><span>Web Devloper</span></h2>
+                            <a href="#portfolio">Hire me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-------------About -------------------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column-1">
+                    <img src="Pics/about.jpg" alt="about" class="image">
+                </div>
+                <div class="about-column-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Greetings! I'm Anuj Kumar Shrivastav, I'm a Front-End-Devloper. I'm Second year Undergraduate
+                        student currently pursuing BCA From MANAGEMENT EDUCATION RESEARCH INSTITUTE,Delhi.I have good
+                        experince to building wonderfull websites and designs.I love to work with technologies such as
+                        HTML,CSS,JavaScript and most of frameworks.
+                        <br>
+                        I'm excited to share my portfolio with you, showcasing a range of projects that highlight my
+                        dedication to explore all perspectives. Feel free to explore and don't hesitate to reach out if
+                        you have any questions or opportunities for collaboration.<br>
+                        <br>
+                        currently I am doing an internship provided by CODSOFT .I made awesome projects and shared them
+                        on Github.I am learning Web Devlopment and share my all journey on Linkedin.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devlopment</span><br>Web app Devlopment</li>
+                            <li><span>App Devlopment</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Internship at CODSOFT </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Persuning BCA from <span>MANAGEMENT EDUCATION RESEARCH
+                                    INSTITUTE</span> ,Delhi</li>
+                            <li><span>2020</span><br>Complete Secondary School from CBSE board</li>
+                            <li><span>2022</span><br>Complete Hi School from CBSE board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------services------------->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is an artful endeavor, blending aesthetics and functionality in digital space. It
+                        crafts user experiences, ensuring seamless navigation with visual appeal. Responsive layouts
+                        adapt gracefully across devices, embracing diverse audiences worldwide. CSS and HTML are its
+                        language, shaping the virtual realms we explore every day.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX, a dynamic duo in design's realm,
+                        Crafts digital experiences, setting the helm.
+                        UI, the interface, sleek and refined,
+                        Guides user interaction, an intuitive find.
+
+                        UX, the experience, holistic and grand,
+                        Ensures satisfaction, as users navigate the land.
+                        Together they meld, in harmonious song,
+                        Creating interfaces, where users belong.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Programing</h2>
+                    <p>UI/UX, a dynamic duo in design's realm,
+                        Crafts digital experiences, setting the helm.
+                        UI, the interface, sleek and refined,
+                        Guides user interaction, an intuitive find.
+
+                        UX, the experience, holistic and grand,
+                        Ensures satisfaction, as users navigate the land.
+                        Together they meld, in harmonious song,
+                        Creating interfaces, where users belong.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Portfolio and my work----------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="Pics/work1.jpg">
+                    <div class="layer">
+                        <h3>Tech Website</h3>
+                        <P>This is fully responsive website using tailwind css which provide seemless experience to the
+                            user.The Website Contains reference of my another website which i have made with pure full
+                            fledge html css and js </P>
+                        <a href=" https://ajdecoder.github.io/tech_website/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Pics/work2.jpg">
+                    <div class="layer">
+                        <h3>Todo_list App</h3>
+                        <P>This website is specially made for Todo lists So That you could be aware of your daily sc
+                            hedule .</P>
+                        <a href="https://ajdecoder.github.io/todo_list/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Pics/work6.jpg">
+                    <div class="layer">
+                        <h3>My OnlineMeal</h3>
+                        <P>A website landing page to order food which included Home, Service, Client and Contact Us form
+                            to coperate with any query of customer</P>
+                        <a href="https://ajdecoder.github.io/My_onlinemeal/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Pics/work4.jpg">
+                    <div class="layer">
+                        <h3>Hacker Terminal</h3>
+                        <P>This is my very first project . User is able to generate awsome passwords with the logic of
+                            combining alphabats numberical values and so on. Also uer is offered to choose among Weak,
+                            Strong and Funny Passwords</P>
+                        <a href="https://ajdecoder.github.io/HackerTerminal/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Pics/work5.jpg">
+                    <div class="layer">
+                        <h3>Fully Responsive Alarm Clock</h3>
+                        <P>This Project was about to build an alarm clock with all its functionality to set an alarm and
+                            play as users need</P>
+                        <a href="https://ajdecoder.github.io/Alarm_clock/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Pics/work3.jpg">
+                    <div class="layer">
+                        <h3>Awsome Password Generator</h3>
+                        <P>This was My first project . User is able to generate awsome passwords with the logic of
+                            combining alphabats numberical values and so on. Also uer is offered to choose among Weak,
+                            Strong and Funny Passwords</P>
+                        <a href="https://ajdecoder.github.io/Pass_gen/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!------------------contact----------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane tele"></i> anujshrivastav530@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone ph-no"></i> 999999999 </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Ajdecoder"><i class="fa-brands fa-github"
+                                style="color: #f0f2f5;"></i></a>
+                        <a href="https://twitter.com/AnujShr90782500"><i class="fa-brands fa-twitter"
+                                style="color: #1864e7;"></i></a>
+                        <a href="http://instagram.com/a_n_u_j_shriv"><i class="fa-brands fa-instagram " style="color: #e23252;
+                                "></i></a>
+                        <a href="https://www.linkedin.com/in/anuj-kumar-shrivastav-671812228/"><i
+                                class="fa-brands fa-linkedin" style="color: #065ff9;"></i></a>
+                    </div>
+                    <a href="cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your  name" required>
+                        <input type="email" name="Email" placeholder="Enter Gmail Id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Descriptive Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Anuj Kumar Shrivastav. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'UI/UX Designer', 'Programer', `C++ Developer`], 
+            typeSpeed: 40,
+            loop: true
+        });
+    </script>
+
+</body>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxhviIQmFgmBCr19v3MZ7UsyK8jteqWOkyTOKQs1W-oP_pjtWs6z3wUZpKcrweEvqKn/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function () {
+                    msg.innerHTML = ''
+                }, 4000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</html>
