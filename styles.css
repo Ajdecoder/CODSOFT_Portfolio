@@ -55,7 +55,7 @@ nav {
 
 #element {
     color: #00d6ff;
-    
+    display: inline-block;
 }
 
 span {
@@ -258,17 +258,17 @@ nav ul li a:hover::after {
     height: 600px;
     width: 100%;
     margin-top: 80px;
+    transition: ease-in-out 0.4s;
     border-radius: 35px;
 }
 
-.image:hover {
+.about-column-1 img:hover {
     padding: 1rem;
-    color: var(--bg_white-color);
     border-width: 3px;
     height: 620px;
     width: 110%;
     margin-left: -31px;
-    transition: ease-in-out 0.4s;
+    transform: scale(1.1);
     border-style: solid;
     border-image: (to bottom,
             red,
