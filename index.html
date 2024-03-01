@@ -7,8 +7,7 @@
     <title>Personal portfolio</title>
     <link rel="icon" href="Pics/title.webp" type="image/icon type">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon"
-        href="https://img.icons8.com/nolan/64/portfolio.png">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/nolan/64/portfolio.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
@@ -218,7 +217,7 @@
                 </div>
 
                 <div class="work">
-                    <img src="Pics/work7.webp">
+                    <img src="/Pics/work3.webp">
                     <div class="layer">
                         <h3>Awsome Password Generator</h3>
                         <P>This was My first project . User is able to generate awsome passwords with the logic of
@@ -226,18 +225,16 @@
                             Strong and Funny Passwords</P>
                         <a href="https://ajdecoder.github.io/Pass_gen/"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
-
                     </div>
                 </div>
 
                 <div class="work">
-                    <img src="Pics/work3.webp">
+                    <img src="/Pics/work7.webp">
                     <div class="layer">
-                        <h3>Awsome Password Generator</h3>
-                        <P>This was My first project . User is able to generate awsome passwords with the logic of
-                            combining alphabats numberical values and so on. Also uer is offered to choose among Weak,
-                            Strong and Funny Passwords</P>
-                        <a href="https://ajdecoder.github.io/Pass_gen/"><i
+                        <h3>A News APP </h3>
+                        <P>In this projet i build a A2Z-News app where one can find news based on their interest also
+                            news are categorised in different categorise</P>
+                        <a href="https://github.com/Ajdecoder/A2Z-News"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
 
                     </div>
@@ -285,59 +282,6 @@
         </div>
     </section>
 
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
-
-    <script>
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-    </script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Web Designer', 'UI/UX Designer', 'Programer', `C++ Developer`], 
-            typeSpeed: 40,
-            loop: true,
-            cursorChar: '',
-        });
-    </script>
-
-</body>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxhviIQmFgmBCr19v3MZ7UsyK8jteqWOkyTOKQs1W-oP_pjtWs6z3wUZpKcrweEvqKn/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById('msg')
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-            .then(response => {
-                msg.innerHTML = "Message Sent Successfully"
-                setTimeout(function () {
-                    msg.innerHTML = ''
-                }, 4000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-    })
-</script>
+    <script src="script.js"></script>
 
 </html>
